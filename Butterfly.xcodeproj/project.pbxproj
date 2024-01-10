@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		063467832843322200F5DDA7 /* CheckinReportScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinReportScreens.swift; sourceTree = "<group>"; };
-		069364922843140500F532AC /* SymptomTracker3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymptomTracker3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		069364922843140500F532AC /* Butterfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Butterfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069364952843140500F532AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		069364972843140500F532AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		069364992843140500F532AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		069364892843140500F532AC = {
 			isa = PBXGroup;
 			children = (
-				069364942843140500F532AC /* SymptomTracker3 */,
+				069364942843140500F532AC /* Butterfly */,
 				069364932843140500F532AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		069364932843140500F532AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				069364922843140500F532AC /* SymptomTracker3.app */,
+				069364922843140500F532AC /* Butterfly.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		069364942843140500F532AC /* SymptomTracker3 */ = {
+		069364942843140500F532AC /* Butterfly */ = {
 			isa = PBXGroup;
 			children = (
 				069364952843140500F532AC /* AppDelegate.swift */,
@@ -79,15 +79,15 @@
 				069364A02843140600F532AC /* LaunchScreen.storyboard */,
 				069364A32843140600F532AC /* Info.plist */,
 			);
-			path = SymptomTracker3;
+			path = Butterfly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		069364912843140500F532AC /* SymptomTracker3 */ = {
+		069364912843140500F532AC /* Butterfly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 069364A62843140600F532AC /* Build configuration list for PBXNativeTarget "SymptomTracker3" */;
+			buildConfigurationList = 069364A62843140600F532AC /* Build configuration list for PBXNativeTarget "Butterfly" */;
 			buildPhases = (
 				0693648E2843140500F532AC /* Sources */,
 				0693648F2843140500F532AC /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = SymptomTracker3;
+			name = Butterfly;
 			productName = SymptomTracker3;
-			productReference = 069364922843140500F532AC /* SymptomTracker3.app */;
+			productReference = 069364922843140500F532AC /* Butterfly.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0693648D2843140500F532AC /* Build configuration list for PBXProject "SymptomTracker3" */;
+			buildConfigurationList = 0693648D2843140500F532AC /* Build configuration list for PBXProject "Butterfly" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				069364912843140500F532AC /* SymptomTracker3 */,
+				069364912843140500F532AC /* Butterfly */,
 			);
 		};
 /* End PBXProject section */
@@ -359,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0693648D2843140500F532AC /* Build configuration list for PBXProject "SymptomTracker3" */ = {
+		0693648D2843140500F532AC /* Build configuration list for PBXProject "Butterfly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069364A42843140600F532AC /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		069364A62843140600F532AC /* Build configuration list for PBXNativeTarget "SymptomTracker3" */ = {
+		069364A62843140600F532AC /* Build configuration list for PBXNativeTarget "Butterfly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069364A72843140600F532AC /* Debug */,
