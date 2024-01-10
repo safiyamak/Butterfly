@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "F1V-vb-iIB"; */
+"F1V-vb-iIB.text" = "Login";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PCV-C4-lba"; */
+"PCV-C4-lba.text" = "Label";
+
+/* Class = "UILabel"; text = "Welcome to One\nStop Autoimmune!"; ObjectID = "pvk-pG-024"; */
+"pvk-pG-024.text" = "Welcome to One\nStop Autoimmune!";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "z37-If-IET"; */
+"z37-If-IET.text" = "Password";
+
+/* Class = "UIButton"; configuration.title = "Submit"; ObjectID = "zeW-5m-70L"; */
+"zeW-5m-70L.configuration.title" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zeW-5m-70L"; */
+"zeW-5m-70L.normalTitle" = "Button";
