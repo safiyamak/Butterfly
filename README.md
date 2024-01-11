@@ -1,5 +1,3 @@
-
-<div style="text-align:center"><img src="[Logo Milestone 2](https://github.com/safiyamak/Butterfly/assets/146744427/37df7d56-1bff-4f09-9648-908cf192496b)" /></div>
 # Butterf!ly - Autoimmune Symptom Tracker
 
 Butterfly is a prototype iOS app developed in Swift using UIKit. The app serves as an autoimmune symptom tracker, allowing users to monitor and record their symptoms related to mind and energy levels.
