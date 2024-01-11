@@ -1,4 +1,4 @@
-# Butterf!ly - Autoimmune Symptom Tracker
+# Butterfly - Autoimmune Symptom Tracker
 
 Butterfly is a prototype iOS app developed in Swift using UIKit. The app serves as an autoimmune symptom tracker, allowing users to monitor and record their symptoms related to mind and energy levels.
 
