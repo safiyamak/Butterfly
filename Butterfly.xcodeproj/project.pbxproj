@@ -15,8 +15,6 @@
 		0693649F2843140600F532AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0693649E2843140600F532AC /* Assets.xcassets */; };
 		069364A22843140600F532AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069364A02843140600F532AC /* LaunchScreen.storyboard */; };
 		069364AE284319A900F532AC /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069364AD284319A800F532AC /* FirstScreen.swift */; };
-		06B83A46284A3FD3002AE0E6 /* butterfly2.png in Resources */ = {isa = PBXBuildFile; fileRef = 06B83A45284A3FD3002AE0E6 /* butterfly2.png */; };
-		06B83A48284A40E0002AE0E6 /* butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = 06B83A47284A40E0002AE0E6 /* butterfly.png */; };
 		06DAD38D2846CDB900C1AC5F /* ReportScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAD38C2846CDB900C1AC5F /* ReportScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +29,8 @@
 		069364A12843140600F532AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069364A32843140600F532AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069364AD284319A800F532AC /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
-		06B83A45284A3FD3002AE0E6 /* butterfly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly2.png; sourceTree = SOURCE_ROOT; };
-		06B83A47284A40E0002AE0E6 /* butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly.png; sourceTree = SOURCE_ROOT; };
+		06C7CDC52BC4D0D300CDBA18 /* Logo Milestone 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo Milestone 2.png"; sourceTree = "<group>"; };
+		06C7CDC82BC4D0E900CDBA18 /* Home-icon.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-icon.svg.png"; sourceTree = "<group>"; };
 		06DAD38C2846CDB900C1AC5F /* ReportScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,13 +71,21 @@
 				063467832843322200F5DDA7 /* CheckinReportScreens.swift */,
 				06DAD38C2846CDB900C1AC5F /* ReportScreen.swift */,
 				0693649B2843140500F532AC /* Main.storyboard */,
-				06B83A47284A40E0002AE0E6 /* butterfly.png */,
-				06B83A45284A3FD3002AE0E6 /* butterfly2.png */,
+				06C7CDC82BC4D0E900CDBA18 /* Home-icon.svg.png */,
+				06C7CDC52BC4D0D300CDBA18 /* Logo Milestone 2.png */,
+				06C7CDC42BC4D0CB00CDBA18 /* images */,
 				0693649E2843140600F532AC /* Assets.xcassets */,
 				069364A02843140600F532AC /* LaunchScreen.storyboard */,
 				069364A32843140600F532AC /* Info.plist */,
 			);
 			path = Butterfly;
+			sourceTree = "<group>";
+		};
+		06C7CDC42BC4D0CB00CDBA18 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06B83A46284A3FD3002AE0E6 /* butterfly2.png in Resources */,
-				06B83A48284A40E0002AE0E6 /* butterfly.png in Resources */,
 				069364A22843140600F532AC /* LaunchScreen.storyboard in Resources */,
 				0693649F2843140600F532AC /* Assets.xcassets in Resources */,
 				0693649D2843140500F532AC /* Main.storyboard in Resources */,
@@ -309,7 +313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6KLRBV5H67;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SymptomTracker3/Info.plist;
+				INFOPLIST_FILE = Butterfly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6KLRBV5H67;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SymptomTracker3/Info.plist;
+				INFOPLIST_FILE = Butterfly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

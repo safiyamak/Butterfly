@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -50,28 +50,11 @@ password. Please try again.</string>
         <!--Test View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="TestViewController" customModule="SymptomTracker3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TestViewController" customModule="Butterfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KlK-Ba-qan">
-                                <rect key="frame" x="19" y="12" width="133" height="155"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <imageReference key="image" image="butterfly.png" symbolScale="large"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="38" scale="large"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvk-pG-024">
-                                <rect key="frame" x="125" y="113" width="165" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Welcome to 
-Butterfly!</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="4" height="-1"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1V-vb-iIB">
                                 <rect key="frame" x="20" y="332" width="107" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -101,7 +84,9 @@ Butterfly!</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeW-5m-70L" userLabel="submit">
                                 <rect key="frame" x="142" y="646" width="101" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration" identifier="submit"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Submit">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
@@ -110,9 +95,16 @@ Butterfly!</string>
                                     <action selector="submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZoC-Be-r6c"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo Milestone 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="r5u-gW-2om">
+                                <rect key="frame" x="54" y="42" width="307" height="223"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.99649880646319189" blue="0.98003755583078123" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="QKE-Vl-rXJ"/>
                     <connections>
@@ -127,7 +119,7 @@ Butterfly!</string>
         <!--Checkin View Controller-->
         <scene sceneID="1sY-FL-eVh">
             <objects>
-                <viewController storyboardIdentifier="secondScreen" id="H31-We-jnd" customClass="CheckinViewController" customModule="SymptomTracker3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondScreen" id="H31-We-jnd" customClass="CheckinViewController" customModule="Butterfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fdf-6R-Bvr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,6 +127,8 @@ Butterfly!</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gz9-Fv-CIV">
                                 <rect key="frame" x="96" y="342" width="222" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="New Checkin">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
@@ -146,6 +140,8 @@ Butterfly!</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iK4-58-3kb">
                                 <rect key="frame" x="96" y="446" width="222" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="New Report">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
@@ -154,12 +150,9 @@ Butterfly!</string>
                                     <action selector="homeScreenReport:" destination="H31-We-jnd" eventType="touchUpInside" id="TKm-BX-PhU"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdz-Ej-Zwp">
-                                <rect key="frame" x="154" y="72.5" width="106" height="89"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Home-icon.svg.png" translatesAutoresizingMaskIntoConstraints="NO" id="vFr-hS-ha7">
+                                <rect key="frame" x="137" y="64" width="141" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="56" scale="large" weight="bold"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lol-Hp-WYH"/>
@@ -169,24 +162,16 @@ Butterfly!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAV-ua-n2L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="646" y="70"/>
+            <point key="canvasLocation" x="644.92753623188412" y="69.642857142857139"/>
         </scene>
         <!--Checkin View Controller-->
         <scene sceneID="W7P-wm-fx2">
             <objects>
-                <viewController id="Kab-iE-JCK" customClass="CheckinViewController" customModule="SymptomTracker3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Kab-iE-JCK" customClass="CheckinViewController" customModule="Butterfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tWj-M6-Ssr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Checkin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gD4-LP-GiM">
-                                <rect key="frame" x="119" y="68" width="178" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="4" height="-1"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brain Fog" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRr-Bf-I08">
                                 <rect key="frame" x="130" y="283" width="155" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -274,6 +259,14 @@ Butterfly!</string>
                                     <action selector="menu:" destination="Kab-iE-JCK" eventType="valueChanged" id="l44-VR-VXT"/>
                                 </connections>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Checkin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gD4-LP-GiM">
+                                <rect key="frame" x="119" y="89" width="178" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="4" height="-1"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="di8-qY-C0Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -296,7 +289,7 @@ Butterfly!</string>
         <!--Report View Controller-->
         <scene sceneID="WpG-ga-Fm5">
             <objects>
-                <viewController storyboardIdentifier="outputScreen" id="itZ-Rj-5pd" customClass="ReportViewController" customModule="SymptomTracker3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="outputScreen" id="itZ-Rj-5pd" customClass="ReportViewController" customModule="Butterfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z3h-gI-Snk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -370,7 +363,7 @@ Butterfly!</string>
         <!--Checkin View Controller-->
         <scene sceneID="8PN-oj-Cq5">
             <objects>
-                <viewController storyboardIdentifier="errorScreen" id="hEX-D4-B7S" customClass="CheckinViewController" customModule="SymptomTracker3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="errorScreen" id="hEX-D4-B7S" customClass="CheckinViewController" customModule="Butterfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9ao-eb-BnX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -419,9 +412,9 @@ to create a report!</string>
         <!--Checkin View Controller-->
         <scene sceneID="FuZ-Ij-Ahm">
             <objects>
-                <viewController id="tMg-Z5-4va" customClass="CheckinViewController" customModule="SymptomTracker3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tMg-Z5-4va" customClass="CheckinViewController" customModule="Butterfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1g2-0l-Gbf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lifestyle Changes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87c-TS-WB8">
@@ -476,11 +469,11 @@ to create a report!</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="e32-Xg-bCL"/>
-        <segue reference="UIs-qb-db2"/>
+        <segue reference="kEM-3o-Def"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="butterfly.png" width="1785" height="1785"/>
-        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="Home-icon.svg.png" width="1200" height="1200"/>
+        <image name="Logo Milestone 2.png" width="375" height="375"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -488,7 +481,13 @@ to create a report!</string>
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
