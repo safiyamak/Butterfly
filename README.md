@@ -6,15 +6,21 @@ Butterfly is a prototype iOS app developed in Swift using UIKit. The app serves 
 
 - **User Authentication:**
   - The app includes a login screen where users need to input a predefined username and password to access the main features.
+![alt text](https://imgur.com/ynGbqJg "User Auth");
 
 - **Symptom Tracking:**
   - Users can log their symptoms related to mind and energy levels.
   - Three symptoms are provided for each category (mind and energy).
   - Severity can be selected using a segmented control.
+ 
+Home Page
+![alt text](https://imgur.com/Mhkskux "Home Page");
 
+Symptom input
+![alt text](https://imgur.com/sXpeX3p "Symptoms");
 - **Lifestyle Changes:**
   - Users can input lifestyle changes they have experienced since the last check-in.
-
+![alt text](https://imgur.com/1GOb553 "Lifestyle Changes");
 - **Report Generation:**
   - The app generates a report based on the entered symptoms and lifestyle changes.
   - The report highlights the most severe symptoms in both mind and energy categories.
