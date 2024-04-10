@@ -16,11 +16,11 @@ Butterfly is a prototype iOS app developed in Swift using UIKit. The app serves 
  
 Home Page
 
-![Screenshot 2024-04-08 at 9 47 26 PM](https://github.com/safiyamak/Butterfly/assets/146744427/ad896a6d-8c9c-4df8-a256-b771ab7f0f12)
+![Screenshot 2024-04-08 at 9 47 26 PM](https://github.com/safiyamak/Butterfly/assets/146744427/ad896a6d-8c9c-4df8-a256-b771ab7f0f12) ![Screenshot 2024-04-08 at 9 47 36 PM](https://github.com/safiyamak/Butterfly/assets/146744427/b9f67da4-6f78-4420-bca0-bc6ac0e63788)
+
 
 Symptom input
 
-![Screenshot 2024-04-08 at 9 47 36 PM](https://github.com/safiyamak/Butterfly/assets/146744427/b9f67da4-6f78-4420-bca0-bc6ac0e63788)
 
 - **Lifestyle Changes:**
   - Users can input lifestyle changes they have experienced since the last check-in.
