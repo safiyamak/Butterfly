@@ -5,6 +5,7 @@ Butterfly is a prototype iOS app developed in Swift using UIKit. The app serves 
 
 - **User Authentication:**
   - The app includes a login screen where users need to input a predefined username and password to access the main features.
+
 ![Screenshot 2024-04-08 at 9 47 06 PM](https://github.com/safiyamak/Butterfly/assets/146744427/c2c2a281-38a0-402e-bb9a-c22efbb5c0ab)
 
 
@@ -14,18 +15,22 @@ Butterfly is a prototype iOS app developed in Swift using UIKit. The app serves 
   - Severity can be selected using a segmented control.
  
 Home Page
+
 ![Screenshot 2024-04-08 at 9 47 26 PM](https://github.com/safiyamak/Butterfly/assets/146744427/ad896a6d-8c9c-4df8-a256-b771ab7f0f12)
 
 Symptom input
+
 ![Screenshot 2024-04-08 at 9 47 36 PM](https://github.com/safiyamak/Butterfly/assets/146744427/b9f67da4-6f78-4420-bca0-bc6ac0e63788)
 
 - **Lifestyle Changes:**
   - Users can input lifestyle changes they have experienced since the last check-in.
+
 ![Screenshot 2024-04-08 at 9 47 49 PM](https://github.com/safiyamak/Butterfly/assets/146744427/daeb74f8-622e-4240-8547-327ad1984077)
 
 - **Report Generation:**
   - The app generates a report based on the entered symptoms and lifestyle changes.
   - The report highlights the most severe symptoms in both mind and energy categories.
+
 ![Screenshot 2024-04-08 at 9 47 41 PM](https://github.com/safiyamak/Butterfly/assets/146744427/f3b5968a-c2c8-4392-a0e0-69abb07146b7)
 
 ## App Structure
